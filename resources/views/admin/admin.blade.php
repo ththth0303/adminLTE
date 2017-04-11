@@ -143,7 +143,7 @@
             <ul class="dropdown-menu">
               <li class="header">You have 10 notifications</li>
               <li>
-               <!-- inner menu: contains the actual data -->
+                <!-- inner menu: contains the actual data -->
                 <ul class="menu">
                   <li>
                     <a href="#">
@@ -166,7 +166,7 @@
                       <i class="fa fa-shopping-cart text-green"></i> 25 sales made
                     </a>
                   </li>
-                  <li>
+                  <li> 
                     <a href="#">
                       <i class="fa fa-user text-red"></i> You changed your username
                     </a>
@@ -175,7 +175,7 @@
               </li>
               <li class="footer"><a href="#">View all</a></li>
             </ul>
-          </li>  
+          </li>
           <!-- Tasks: style can be found in dropdown.less -->
           <li class="dropdown tasks-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -1226,7 +1226,7 @@
   $.widget.bridge('uibutton', $.ui.button);
 </script>
 <!-- Bootstrap 3.3.6 -->
-<script src="js/bootstrap.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 <!-- Morris.js charts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
 <script src="plugins/morris/morris.min.js"></script>
